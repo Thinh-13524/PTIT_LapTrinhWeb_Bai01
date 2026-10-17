@@ -4,89 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chi tiết sản phẩm - MiniShop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
 </head>
-
 <body>
+    <header class="site-header">
+        <h1>MiniShop</h1>
+        <nav class="main-nav">
+            <a href="index.html">Trang chủ</a>
+            <a href="about.html">Giới thiệu</a>
+            <a href="contact.html">Liên hệ</a>
+            <a href="cart.html">Giỏ hàng (<span id="cart-count">0</span>)</a>
+            <a href="login.html">Đăng nhập</a>
+            <a href="register.html">Đăng ký</a>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- SP 1 -->
+        <article class="product-detail" id="sp01">
+            <div class="product-image">
+                <img src="images/sp01.jpg" alt="Chuột không dây M1">
+            </div>
+            <div class="product-info">
+                <h2>1. Chuột không dây M1</h2>
+                <p class="price">Giá: <strong>250.000 đ</strong></p>
+                <p>Chuột không dây kết nối 2.4GHz, thiết kế đối xứng, nút bấm êm, phù hợp cho học tập và làm việc văn phòng.</p>
+                <h3>Thông số kỹ thuật</h3>
+                <table>
+                    <thead>
+                        <tr><th>Thông số</th><th>Giá trị</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Kết nối</td><td>Không dây 2.4GHz, đầu thu USB</td></tr>
+                        <tr><td>Độ phân giải</td><td>1600 DPI</td></tr>
+                        <tr><td>Pin</td><td>1 pin AA, dùng khoảng 12 tháng</td></tr>
+                        <tr><td>Bảo hành</td><td>12 tháng</td></tr>
+                    </tbody>
+                </table>
+                <p><a href="index.html">&laquo; Quay lại danh sách sản phẩm</a></p>
+            </div>
+        </article>
 
-<header class="site-header">
-    <h1>MiniShop</h1>
+        <hr>
 
-    <nav>
-        <a href="index.html">Trang chủ</a> |
-        <a href="about.html">Giới thiệu</a> |
-        <a href="product.html">Sản phẩm</a> |
-        <a href="register.html">Đăng ký</a> |
-        <a href="cart.html">Giỏ hàng</a> |
-        <a href="login.html">Đăng nhập</a> |
-        <a href="contact.html">Liên hệ</a>
-    </nav>
-</header>
+        <!-- SP 2 -->
+        <article class="product-detail" id="sp02">
+            <div class="product-image">
+                <img src="images/sp02.jpg" alt="Bàn phím cơ K2">
+            </div>
+            <div class="product-info">
+                <h2>2. Bàn phím cơ K2</h2>
+                <p class="price">Giá: <strong>450.000 đ</strong></p>
+                <p>Bàn phím cơ layout gọn gàng, switch gõ êm ái, hỗ trợ đèn LED nền đa chế độ.</p>
+                <h3>Thông số kỹ thuật</h3>
+                <table>
+                    <thead>
+                        <tr><th>Thông số</th><th>Giá trị</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Kết nối</td><td>Cáp Type-C tháo rời</td></tr>
+                        <tr><td>Loại Switch</td><td>Blue / Red Switch</td></tr>
+                        <tr><td>Đèn nền</td><td>LED Rainbow nhiều hiệu ứng</td></tr>
+                        <tr><td>Bảo hành</td><td>12 tháng</td></tr>
+                    </tbody>
+                </table>
+                <p><a href="index.html">&laquo; Quay lại danh sách sản phẩm</a></p>
+            </div>
+        </article>
+    </main>
 
-<main>
-
-    <h2>Chi tiết sản phẩm</h2>
-
-    <div class="product-detail">
-
-        <div class="product-image">
-            <img src="https://down-vn.img.susercontent.com/file/vn-11134208-7ras8-mdo2x2kps8flea" alt="Chuột không dây M1" width="400">
-        </div>
-
-        <div class="product-info">
-            <h2>Chuột không dây M1</h2>
-
-            <p>
-                Giá:
-                <strong>250.000 đ</strong>
-            </p>
-
-            <p>
-                Chuột không dây M1 có thiết kế nhỏ gọn,
-                phù hợp cho học tập và làm việc.
-            </p>
-
-            <h3>Thông số sản phẩm</h3>
-
-            <table border="1">
-                <tr>
-                    <th>Thông số</th>
-                    <th>Chi tiết</th>
-                </tr>
-
-                <tr>
-                    <td>Tên sản phẩm</td>
-                    <td>Chuột không dây M1</td>
-                </tr>
-
-                <tr>
-                    <td>Kết nối</td>
-                    <td>Wireless</td>
-                </tr>
-
-                <tr>
-                    <td>Màu sắc</td>
-                    <td>Đen</td>
-                </tr>
-
-                <tr>
-                    <td>Giá</td>
-                    <td>250.000 đ</td>
-                </tr>
-            </table>
-
-            <p>
-                <a href="cart.html">Thêm vào giỏ hàng</a>
-            </p>
-
-        </div>
-
-    </div>
-
-</main>
-
-<footer class="site-footer">
-    <p>&copy; 2026 MiniShop</p>
-</footer>
-
+    <footer class="site-footer">
+        <p>&copy; 2026 MiniShop. Dự án thực hành lập trình web.</p>
+    </footer>
 </body>
 </html>
